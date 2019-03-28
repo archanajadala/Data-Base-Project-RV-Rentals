@@ -364,10 +364,12 @@ VALUES
 INSERT INTO InsuranceProvider(IProvider, IBenifits)
 VALUES 
 (' GEICO',  'GoldPlan'),
+(' GEICO',  'platinumPlan'),
 (' UnitedHealthOne',  'PlantinumPlan'),
 (' Assurant Health', ' SilverPlan'),
 (' GEICO',  ' BronzePlan'),
 (' USAA', ' GoldPlan');
+
 
 
 INSERT INTO InsuranceBooking(IStartDate, IEndDate,BookId,InsuranceId)
